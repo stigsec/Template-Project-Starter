@@ -1,0 +1,8 @@
+{
+  "name": "c",
+  "folders": ["src", "include", "build"],
+  "files": {
+    "Makefile": "CC=gcc\nCFLAGS=-Wall -Wextra -std=c11\n\nall: {{project_name}}\n\n{{project_name}}: src/main.c\n\t$(CC) $(CFLAGS) -o {{project_name}} src/main.c\n\nclean:\n\trm -f {{project_name}}",
+    "src/main.c": "#include <stdio.h>\n\nint main(void) {\n    printf(\"Hello, world!\\n\");\n    return 0;\n}"
+  }
+}

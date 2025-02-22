@@ -1,0 +1,8 @@
+{
+  "name": "javascript",
+  "folders": ["src", "tests"],
+  "files": {
+    "package.json": "{\n  \"name\": \"{{project_name}}\",\n  \"version\": \"1.0.0\",\n  \"main\": \"src/index.js\",\n  \"scripts\": {\n    \"start\": \"node src/index.js\",\n    \"test\": \"echo \\\"No tests defined\\\"\"\n  },\n  \"dependencies\": {}\n}",
+    "src/index.js": "console.log('Hello, world!');"
+  }
+}

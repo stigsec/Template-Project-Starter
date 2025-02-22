@@ -1,0 +1,8 @@
+{
+  "name": "go",
+  "folders": ["cmd", "pkg"],
+  "files": {
+    "go.mod": "module {{project_name}}\n\ngo 1.18",
+    "cmd/main.go": "package main\n\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Hello, world!\")\n}"
+  }
+}

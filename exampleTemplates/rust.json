@@ -1,0 +1,8 @@
+{
+  "name": "rust",
+  "folders": ["src", "tests"],
+  "files": {
+    "Cargo.toml": "[package]\nname = \"{{project_name}}\"\nversion = \"0.1.0\"\nedition = \"2021\"",
+    "src/main.rs": "fn main() {\n    println!(\"Hello, world!\");\n}"
+  }
+}

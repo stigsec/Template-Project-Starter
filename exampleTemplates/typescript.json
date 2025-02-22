@@ -1,0 +1,9 @@
+{
+  "name": "typescript",
+  "folders": ["src", "tests"],
+  "files": {
+    "package.json": "{\n  \"name\": \"{{project_name}}\",\n  \"version\": \"1.0.0\",\n  \"scripts\": {\n    \"build\": \"tsc\",\n    \"start\": \"node dist/index.js\",\n    \"test\": \"echo \\\"No tests specified\\\"\"\n  },\n  \"devDependencies\": {\n    \"typescript\": \"^4.0.0\"\n  }\n}",
+    "tsconfig.json": "{\n  \"compilerOptions\": {\n    \"target\": \"ES6\",\n    \"module\": \"commonjs\",\n    \"outDir\": \"dist\",\n    \"strict\": true\n  },\n  \"include\": [\"src/**/*\"]\n}",
+    "src/index.ts": "console.log('Hello, world!');"
+  }
+}
