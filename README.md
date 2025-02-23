@@ -43,7 +43,7 @@ tps rust.json rustProject
 ### Example (Linux/macOS):
 Add the following line to your shell configuration file (e.g., ```~/.bashrc``` or ```~/.zshrc```):
 ```bash
-export TPS_path="$HOME/.config/projectTemplates"
+export TPS_PATH="$HOME/.config/projectTemplates"
 ```
 After updating your shell configuration file, reload it with:
 ```bash
