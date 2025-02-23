@@ -26,7 +26,7 @@ This project uses the following Rust crates:
    ```bash
    cargo build --release
    ```
-   The compiled binary will be located in ```target/debug/tps```
+   The compiled binary will be located in ```target/release/tps```
 
 ## Usage
 **tps** takes two arguments: the template file and the project name.
